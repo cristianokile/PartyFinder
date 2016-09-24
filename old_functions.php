@@ -52,7 +52,7 @@ function pegaEventos($url, $rastreiaLinks, $strutLinks, $strutData, $strutTitle,
 
 		$data = array();
 		foreach ($page->find($strutData) as $exibirDatas) {
-			$data[] = $exibirDatas;
+			$data = $exibirDatas;
 		};
 
 		$images = array();
